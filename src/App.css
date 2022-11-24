@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  padding: 30px;
+}
+
+.low-btn {
+  position: fixed;
+  right: 40px;
+}
+.button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .low-btn {
+    display: none;
+  }
+}
+
+.car {
+  margin-inline: 10px;
+  display: flex;
+}
+
+.car-type {
+  margin: 10px 7px;
+  font-weight: 400;
+}
+
+.car-details {
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.car-img {
+  object-fit: contain;
+  width: 340px;
+  height: 230px;
+}
+
+.car-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.btn {
+  margin-inline: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+}
+.btn > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  color: #0698c4;
+  font-size: 13px;
+  border-radius: 8px;
+}
+.btn > span:hover {
+  transform: scale(1.05);
+}
+.btn-image {
+  height: 18px;
+  margin-left: 5px;
+}
+@media screen and (max-width: 600px) {
+  .car-image {
+    object-fit: contain;
+    height: 250px;
+    width: 280px;
+  }
+}
